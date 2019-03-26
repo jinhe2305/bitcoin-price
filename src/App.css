@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee', cursive;
+}
+
+span.bungee { font-family: 'Bungee', cursive; }
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header { font-size: 60px; font-family: 'Bungee', cursive; }
+.subheader { font-size: 20px; font-family: 'Bungee', cursive; }
+
+a.link {
+  text-decoration: none;
+  color: #ff1769;
+}
+
+a.link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+
+.select-container select {
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  font-size: 30px;
+  font-family: 'Bungee', cursive;
+  cursor: pointer;
+  color: #ff1769;
+}
+
+.select-container select:focus {
+  outline: none;
+}
